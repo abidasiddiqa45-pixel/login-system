@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-body">
+  <div class="auth-card">
+    <h1>Create your account</h1>
+    <p class="subtitle">It only takes a minute.</p>
+
+    <form action="index.html" method="get">
+      <div class="form-group">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX">
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="At least 6 characters" minlength="6" required>
+      </div>
+
+      <div class="form-group">
+        <label for="confirm">Confirm password</label>
+        <input type="password" id="confirm" name="confirm" placeholder="Type the password again" minlength="6" required>
+      </div>
+
+      <div class="form-group">
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" name="dob">
+      </div>
+
+      <div class="form-group">
+        <label>Gender</label>
+        <div class="radio-group">
+          <label><input type="radio" name="gender" value="male" required> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+          <label><input type="radio" name="gender" value="other"> Other</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="dept">Department</label>
+        <select id="dept" name="dept" required>
+          <option value="">Select a department</option>
+          <option value="cse">Computer Science</option>
+          <option value="eee">Electrical Engineering</option>
+          <option value="bba">Business Administration</option>
+        </select>
+      </div>
+
+      <label class="checkbox"><input type="checkbox" name="terms" required> I accept the terms and conditions</label>
+
+      <button type="submit" class="btn">Create account</button>
+    </form>
+
+    <p class="switch-text">Already have an account? <a href="index.html">Sign in</a></p>
+  </div>
+</body>
+</html>

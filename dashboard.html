@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="layout">
+
+    <aside class="sidebar">
+      <h2 class="logo">CampusHub</h2>
+      <nav>
+        <a href="dashboard.html" class="active">Overview</a>
+        <a href="#">My courses</a>
+        <a href="#">Assignments</a>
+        <a href="#">Results</a>
+        <a href="#">Profile</a>
+      </nav>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <h3>Overview</h3>
+        <div class="user-area">
+          <span>Signed in as Student</span>
+          <a href="index.html" class="btn btn-small">Log out</a>
+        </div>
+      </header>
+
+      <main class="content">
+        <h2>Welcome back</h2>
+        <p class="subtitle">Here is where things stand this week.</p>
+
+        <section class="cards">
+          <div class="card"><h4>Enrolled courses</h4><p class="number">6</p></div>
+          <div class="card"><h4>Credits completed</h4><p class="number">88</p></div>
+          <div class="card"><h4>Credits this semester</h4><p class="number">16</p></div>
+          <div class="card"><h4>Attendance</h4><p class="number">97%</p></div>
+          <div class="card"><h4>Current CGPA</h4><p class="number">3.83</p></div>
+        </section>
+
+        <section class="table-box">
+          <h3>Current semester: 2026-2027, Fall</h3>
+          <table>
+            <thead>
+              <tr><th>Code</th><th>Course</th><th>Credit</th><th>Status</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>00588</td><td>Business Communication [CS/ENGG]</td><td>3.00</td><td><span class="badge warning">Ongoing</span></td></tr>
+              <tr><td>01037</td><td>Compiler Design</td><td>3.00</td><td><span class="badge warning">Ongoing</span></td></tr>
+              <tr><td>01073</td><td>Computer Graphics</td><td>3.00</td><td><span class="badge warning">Ongoing</span></td></tr>
+              <tr><td>01560</td><td>Web Technologies</td><td>3.00</td><td><span class="badge warning">Ongoing</span></td></tr>
+              <tr><td>01940</td><td>Digital Logic and Circuits</td><td>3.00</td><td><span class="badge warning">Ongoing</span></td></tr>
+              <tr><td>02227</td><td>Digital Logic and Circuits Lab</td><td>1.00</td><td><span class="badge warning">Ongoing</span></td></tr>
+            </tbody>
+          </table>
+        </section>
+
+      </main>
+    </div>
+  </div>
+</body>
+</html>
